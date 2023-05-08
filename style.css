@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+/* Введи число и выбери, какой факт хочешь узнать */
+.container_random{
+    margin: 10% 22%;
+    background-color: orange;
+    width: 1000px;
+    height: 500px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    margin: 20px 100px;
+}
+form label{
+    margin-left: 15px;
+}
+form #number{
+    margin-top: 10px;
+    
+}
+.container_random input[type='button']{
+    width: 80px;
+    background-color: aqua;
+}
+
+.container textarea{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    width: 500px;
+}
+
+
+/* Выбери тип факта */
+
+.container input[type='radio']{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.container label{
+    margin-top: 20px;
+    
+}
+.container input[type='button']{
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 150px;
+    height: 20px;
+    background-color: aqua;
+}
